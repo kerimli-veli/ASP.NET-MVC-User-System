@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Ali",
+    "surname": "Yılmaz",
+    "age": 25
+  },
+  {
+    "id": 2,
+    "name": "Ayşe",
+    "surname": "Kaya",
+    "age": 30
+  },
+  {
+    "id": 3,
+    "name": "Mehmet",
+    "surname": "Demir",
+    "age": 28
+  }
+]
