@@ -1,0 +1,21 @@
+﻿@model ToDo_List.Models.User
+
+<h2>Add New User</h2>
+
+=
+<form method="post" asp-controller="User" asp-action="AddUser">
+    <div>
+        <label for="Name">Name:</label>
+        <input type="text" id="Name" name="Name" value="@Model?.Name" required />
+    </div>
+
+    <div>
+        <label for="Age">Age:</label>
+        <input type="number" id="Age" name="Age" value="@Model?.Age" required />
+    </div>
+
+    <div>
+        <button type="submit">Add User</button>
+    </div>
+</form>
+
